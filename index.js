@@ -17,7 +17,7 @@
 var urlbase64 = require('urlsafe-base64'),
     crypto = require('crypto'),
     curve25519 = require('curve25519'),
-    ece = require('encrypted-content-encoding');
+    ece = require('http_ece');
 
 // Size of the AES-128-GCM authentication tag, in bytes.
 const AUTHENTICATION_TAG_SIZE = 16;
